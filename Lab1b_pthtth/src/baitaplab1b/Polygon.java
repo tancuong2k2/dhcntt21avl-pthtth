@@ -1,10 +1,11 @@
 package baitaplab1b;
 
-public class Polygon {
+public interface Polygon {
 
 	double area();
 
 	double perimeter();
+
 }
 
 // Ví dụ Triangle
@@ -66,4 +67,5 @@ class Square extends Rectangle {
 	public Square(double side) {
 		super(side, side);
 	}
+
 }
